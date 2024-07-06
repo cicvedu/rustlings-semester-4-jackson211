@@ -8,7 +8,7 @@
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
-        panic!()
+        panic!();
     }
 
     let my_arr = &[-1, -2, -3, -4, -5, -6];
